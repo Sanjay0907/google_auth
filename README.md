@@ -3,7 +3,8 @@
 A new Flutter project.
 
 ## App Screens
-![e-commer app](https://user-images.githubusercontent.com/90062803/181310779-40bbc8db-c7ec-4efe-803f-0f1477b8b13a.png)
+![e-commerce app](https://user-images.githubusercontent.com/90062803/181311798-e1dc68b1-b9db-4d7d-a0ae-6601987ec8b7.png)
+
 
 
 ## Getting Started
