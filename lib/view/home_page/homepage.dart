@@ -1,4 +1,4 @@
-import 'package:e_commerce_app/view/display_products/display_products.dart';
+import 'package:e_commerce_app/view/home_screen/homeScreen.dart';
 import 'package:e_commerce_app/view/sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
                 child: CircularProgressIndicator(),
               );
             } else if (snapshot.hasData) {
-              return const DisplayProducts();
+              return const HomeScreen();
             } else if (snapshot.hasError) {
               return const Center(
                 child: Text('Error Logging in'),

@@ -1,4 +1,3 @@
-import 'package:e_commerce_app/controller/provider/products_provider.dart';
 import 'package:e_commerce_app/controller/provider/signin_provider.dart';
 import 'package:e_commerce_app/view/home_page/homepage.dart';
 import 'package:e_commerce_app/view/sign_in.dart';
@@ -24,8 +23,6 @@ class Ecommerce extends StatelessWidget {
         providers: [
           ChangeNotifierProvider<GoogleSignInProvider>(
               create: (context) => GoogleSignInProvider()),
-          ChangeNotifierProvider<ProductsProvider>(
-              create: (context) => ProductsProvider())
         ],
         child: const MaterialApp(
           debugShowCheckedModeBanner: false,
