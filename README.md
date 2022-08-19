@@ -2,9 +2,6 @@
 
 A new Flutter project.
 
-## App Screens
-![e-commerce app](https://user-images.githubusercontent.com/90062803/181311798-e1dc68b1-b9db-4d7d-a0ae-6601987ec8b7.png)
-
 
 
 ## Getting Started
