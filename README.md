@@ -1,4 +1,4 @@
-# E-Commerce App
+# Google Authentication
 
 A new Flutter project.
 
